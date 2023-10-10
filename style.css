@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #00b4d8;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+
+img {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 20%;
+    border: 3px solid #000;
+    margin: 2rem;
+    
+}
+
+.meio{
+    text-align: center;
+}
+
+.meio h1, h2 {
+    color: #023e8a
+}
+
+section .digitais{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+
+
+}
+h3 {
+    margin: 2rem;
+}
+
+#links {
+    display: flex;
+    justify-content: center;
+}
+
+#links p {
+    display: flex;
+    flex-direction:row;
+    text-align: end;
+    margin-top: 3rem;
+}
+
+section a img{
+    width: 30px;
+    height: 30px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+
+.contato a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.contato p{
+    margin: -15px;
+}
