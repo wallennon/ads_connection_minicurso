@@ -14,7 +14,8 @@ ul {
     justify-content: space-between;
     list-style: none;
     align-items: center;
-    padding: 1rem 3rem;
+    padding: 1rem 35rem;
+    background-color: #023e8a;
 }
 
 img {
@@ -45,6 +46,7 @@ section .digitais{
 }
 h3 {
     margin: 2rem;
+    color: black;
 }
 
 #links {
@@ -80,4 +82,11 @@ section a img{
 
 .contato p{
     margin: -15px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+    background-color: #023e8a;
 }
